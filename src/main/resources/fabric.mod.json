@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "extra-farming-add-on-mod",
+	"version": "${version}",
+	"name": "extra farming add on mod",
+	"description": "Extra farming add on mod for HackClub",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/extra-farming-add-on-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.artgod13.extrafarmingaddonmod.ExtraFarmingAddOnMod"
+		],
+		"fabric-datagen": [
+			"net.artgod13.extrafarmingaddonmod.ExtraFarmingAddOnModDataGenerator"
+		],
+		"client": [
+			"net.artgod13.extrafarmingaddonmod.ExtraFarmingAddOnModClient"
+		]
+	},
+	"mixins": [
+		"extra-farming-add-on-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
