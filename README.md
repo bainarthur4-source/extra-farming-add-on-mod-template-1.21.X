@@ -14,4 +14,6 @@ INSTUCTIONS TO USE:
 
 3rd make sure that you are in version 1.21 in minecraft and with a fabric installation and run the mod to play it
 
+(Remember to install fabric api)
+
 https://www.youtube.com/watch?v=v-WNTQh_m5w for more details
