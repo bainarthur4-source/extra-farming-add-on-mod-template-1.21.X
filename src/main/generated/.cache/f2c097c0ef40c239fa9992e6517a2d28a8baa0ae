@@ -1,0 +1,5 @@
+// 1.21	2026-02-20T18:56:32.0656343	extra farming add on mod/Recipes
+b61e7c0e23a8ee21b26a1707c2807fed2fffcea6 data\extrafarmingaddonmod\recipe\popcorn_from_smelting_corn_seeds.json
+004724cafd185b1afffa6643ae92a7e691ee6e10 data\extrafarmingaddonmod\advancement\recipes\food\popcorn_from_smelting_corn_seeds.json
+9d65b38b750c43cb95cbbcbcf5e3e96c69270b15 data\extrafarmingaddonmod\recipe\loot_crate.json
+5d8460590605504c0072dc34e32e22dbc8433b73 data\extrafarmingaddonmod\advancement\recipes\misc\loot_crate.json

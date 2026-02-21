@@ -1,21 +1,28 @@
 package net.artgod13.extrafarmingaddonmod.item;
 
 import net.artgod13.extrafarmingaddonmod.ExtraFarmingAddOnMod;
+import net.artgod13.extrafarmingaddonmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.artgod13.extrafarmingaddonmod.item.ModFoodComponent;
 
 public class ModItems {
     //Step one of adding an item, create a public static final item and register it using the registerItem method. You can change the name and settings of the item as you wish.
     public static final Item TEST_ITEM = registerItem("test_item", new Item(new Item.Settings()));
-    public static final Item TOMATO = registerItem("tomato", new Item(new Item.Settings()));
-    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", new Item(new Item.Settings()));
-    public static final Item CORN = registerItem("corn", new Item(new Item.Settings()));
-    public static final Item CORN_SEEDS = registerItem("corn_seeds", new Item(new Item.Settings()));
-    public static final Item POPCORN = registerItem("popcorn", new Item(new Item.Settings()));
+    public static final Item TOMATO = registerItem("tomato", new Item(new Item.Settings().food(ModFoodComponent.TOMATO)));
+    public static final Item CORN = registerItem("corn", new Item(new Item.Settings().food(ModFoodComponent.CORN)));
+    public static final Item POPCORN = registerItem("popcorn", new Item(new Item.Settings().food(ModFoodComponent.POPCORN)));
+
+    public static final Item CORN_SEEDS = registerItem("corn_seeds",
+            new AliasedBlockItem(ModBlocks.CORN_CROP, new Item.Settings()));
+
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATO_CROP, new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {

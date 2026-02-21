@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "extra_farming_items",
+  "ingredient": {
+    "item": "extrafarmingaddonmod:corn_seeds"
+  },
+  "result": {
+    "id": "extrafarmingaddonmod:popcorn"
+  }
+}

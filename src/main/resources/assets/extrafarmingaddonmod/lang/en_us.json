@@ -4,5 +4,13 @@
   "item.extrafarmingaddonmod.tomato_seeds": "Tomato Seeds",
   "item.extrafarmingaddonmod.corn": "Corn",
   "item.extrafarmingaddonmod.corn_seeds": "Corn Seeds",
-  "item.extrafarmingaddonmod.popcorn": "Popcorn"
+  "item.extrafarmingaddonmod.popcorn": "Popcorn",
+
+  "block.extrafarmingaddonmod.loot_crate": "Loot Crate",
+  "block.extrafarmingaddonmod.corn_crop": "Corn Crop",
+  "block.extrafarmingaddonmod.tomato_crop": "Tomato Crop",
+  "Extra Farming Items": "Extra Farming Items",
+
+  "tooltip.extrafarmingaddonmod.corn_crop_block.tooltip": "Fun crop block that makes corn!!! Wait how did you get this!",
+  "tooltip.extrafarmingaddonmod.tomato_crop_block.tooltip": "Fun crop block that makes tomatos!!! Wait how did you get this!"
 }

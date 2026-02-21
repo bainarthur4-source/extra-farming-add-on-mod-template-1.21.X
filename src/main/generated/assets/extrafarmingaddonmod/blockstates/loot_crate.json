@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "extrafarmingaddonmod:block/loot_crate"
+    }
+  }
+}

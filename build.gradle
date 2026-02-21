@@ -82,3 +82,16 @@ publishing {
 		// retrieving dependencies.
 	}
 }
+
+// Ensure the datagen working directory exists and assign it to the run datagen task(s)
+// This helps IDE run configurations or Gradle tasks that expect build/datagen to exist.
+tasks.matching { it.name == 'runDataGen' || it.name == 'runDatagen' }.configureEach {
+    doFirst {
+        def datagenDir = file("${buildDir}/datagen")
+        if (!datagenDir.exists()) {
+            datagenDir.mkdirs()
+        }
+    }
+    // set the working directory to build/datagen so generated files land there and the runtime expects it
+    workingDir = file("${buildDir}/datagen")
+}
