@@ -9,6 +9,7 @@ Pro Tip: Smelt corn seeds to get popcorn
 INSTUCTIONS TO USE:
 
 1st download ExtraFarmingAddOnMod-1.0.0.jar
+You can get it here (https://modrinth.com/mod/extra-farming-add-on-mod) or download it off of the repo
 
 2nd go to %appdata% -> .minecraft -> .mods and drag in the ExtraFarmingAddOnMod-1.0.0.jar into it
 
