@@ -13,7 +13,7 @@ You can get it here (https://modrinth.com/mod/extra-farming-add-on-mod) or downl
 
 2nd go to %appdata% -> .minecraft -> .mods and drag in the ExtraFarmingAddOnMod-1.0.0.jar into it
 
-3rd make sure that you are in version 1.21 in minecraft and with a fabric installation and run the mod to play it
+3rd make sure that you are in version 1.21 in minecraft for the best experience and with a fabric installation and run the mod to play it
 
 (Remember to install fabric api)
 
